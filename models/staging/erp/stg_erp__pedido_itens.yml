@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: stg_erp__pedido_itens
+    description: Tabela de preparação dos dados brutos dos funcionários.
+    columns:
+      - name: PK_pedido_item
+        description: Chave primária que identifica exclusivamente cada funcionário no sistema.
+        data_tests:
+          - unique
+          - not_null
